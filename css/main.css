@@ -1,0 +1,67 @@
+.boy {
+top: 40px;
+left: 50px;
+position: relative;
+}
+.header {
+  top: 310px;
+  left: 10px;
+  position: relative;
+}
+.gradient {
+  background: linear-gradient(214deg, #12eab2, #12a6ea, #e500f2, #ff2400);
+	background-size: 600% 600%;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+	-webkit-animation: Gradient 10s ease infinite;
+	-moz-animation: Gradient 10s ease infinite;
+	animation: Gradient 10s ease infinite;
+}
+
+
+
+  @-webkit-keyframes Gradient {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes Gradient {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes Gradient {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+
+span.tip {
+
+    /* Required */
+    z-index: 2;
+    display: none;
+
+    /* Optional */
+    font-size: 15px;
+    max-width: 150px;
+    height: auto;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px #666;
+    background: #FD0;
+}
+
+
+
+.text-01 {
+  color: gray;
+}
+a {
+  color: inherit;
+}
+
+html body {
+  height: 100%
+}
