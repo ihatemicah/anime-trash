@@ -1,12 +1,23 @@
+
+
 .boy {
 top: 40px;
 left: 50px;
 position: relative;
 }
+
+.boy img {
+  max-width: 100%
+}
 .header {
   top: 310px;
   left: 10px;
   position: relative;
+}
+@media (min-width: 414px) {
+  .display-3 {
+    max-width: 100%
+  }
 }
 .gradient {
   background: linear-gradient(214deg, #12eab2, #12a6ea, #e500f2, #ff2400);
